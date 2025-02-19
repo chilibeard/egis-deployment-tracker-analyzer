@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import { createClient } from '@supabase/supabase-js'
 import { useQuery, useQueryClient } from '@tanstack/react-query'
+import { DeploymentSummary, DeploymentStatus, PhaseStatus } from '../types/deployment'
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -11,7 +12,7 @@ const supabase = createClient(
 
 export function DeploymentList() {
   const queryClient = useQueryClient()
-  const { data: deployments, isLoading } = useQuery({
+  const { data: deployments, isLoading } = useQuery<DeploymentSummary[]>({
     queryKey: ['deployments'],
     queryFn: async () => {
       const { data, error } = await supabase
