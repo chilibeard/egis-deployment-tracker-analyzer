@@ -1,4 +1,4 @@
-import { DeploymentList } from '@/components/DeploymentList'
+import { DeploymentList } from '../components/DeploymentList'
 
 export default function Home() {
   return (
