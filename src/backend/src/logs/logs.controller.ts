@@ -5,10 +5,13 @@ import {
   Param,
   Body,
   UseInterceptors,
-  UploadedFiles,
+  UploadedFile,
+  ParseFilePipe,
+  MaxFileSizeValidator,
+  FileTypeValidator,
   ParseUUIDPipe,
 } from '@nestjs/common';
-import { FilesInterceptor } from '@nestjs/platform-express';
+import { FileInterceptor } from '@nestjs/platform-express';
 import { ApiTags, ApiOperation, ApiConsumes, ApiBody } from '@nestjs/swagger';
 import { LogsService } from './logs.service';
 import { UploadLogsDto } from './dto/upload-logs.dto';
@@ -19,24 +22,33 @@ export class LogsController {
   constructor(private readonly logsService: LogsService) {}
 
   @Post('upload')
-  @ApiOperation({ summary: 'Upload log files for processing' })
+  @ApiOperation({ summary: 'Upload deployment logs zip file for processing' })
   @ApiConsumes('multipart/form-data')
   @ApiBody({
-    description: 'Log files to process',
+    description: 'Deployment logs zip file',
     type: UploadLogsDto,
   })
-  @UseInterceptors(FilesInterceptor('files'))
+  @UseInterceptors(FileInterceptor('file'))
   async uploadLogs(
-    @UploadedFiles() files: Express.Multer.File[],
+    @UploadedFile(
+      new ParseFilePipe({
+        validators: [
+          new MaxFileSizeValidator({ maxSize: 100 * 1024 * 1024 }), // 100MB max
+          new FileTypeValidator({ fileType: 'application/zip' }),
+        ],
+      }),
+    )
+    file: Express.Multer.File,
     @Body() body: UploadLogsDto,
   ) {
-    return this.logsService.processLogs(files, body.deploymentId);
+    const machineName = file.originalname.replace('.zip', '');
+    return this.logsService.processDeploymentLogs(machineName, file);
   }
 
   @Get(':deploymentId')
-  @ApiOperation({ summary: 'Get all logs for a deployment' })
-  async getLogs(@Param('deploymentId', ParseUUIDPipe) deploymentId: string) {
-    return this.logsService.getLogsByDeploymentId(deploymentId);
+  @ApiOperation({ summary: 'Get deployment logs by ID' })
+  async getDeploymentLogs(@Param('deploymentId', ParseUUIDPipe) deploymentId: string) {
+    return this.logsService.getDeploymentLogs(deploymentId);
   }
 
   @Get(':deploymentId/errors')

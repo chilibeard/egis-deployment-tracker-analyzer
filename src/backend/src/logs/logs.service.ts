@@ -1,79 +1,82 @@
-import { Injectable } from '@nestjs/common';
-import { DatabaseService } from '../database/database.service';
+import { Injectable, Logger } from '@nestjs/common';
+import { createClient } from '@supabase/supabase-js';
+import { ConfigService } from '@nestjs/config';
 import { ProcessingService } from '../processing/processing.service';
-import { LogEntry, TimelineEvent } from './interfaces';
+import * as AdmZip from 'adm-zip';
 
 @Injectable()
 export class LogsService {
+  private readonly supabase;
+  private readonly logger = new Logger(LogsService.name);
+
   constructor(
-    private readonly db: DatabaseService,
+    private readonly configService: ConfigService,
     private readonly processingService: ProcessingService,
-  ) {}
-
-  async processLogs(
-    files: Express.Multer.File[],
-    deploymentId: string,
-  ): Promise<{ taskIds: string[] }> {
-    const tasks = await Promise.all(
-      files.map(async (file) => {
-        // Save file to temporary storage
-        const filePath = await this.saveToTemp(file);
-        
-        // Create processing task
-        return this.processingService.createTask({
-          filePath,
-          deploymentId,
-          fileType: this.determineFileType(file.originalname),
-          priority: this.determinePriority(file.originalname),
-          fileSize: file.size,
-        });
-      }),
+  ) {
+    this.supabase = createClient(
+      this.configService.get<string>('SUPABASE_URL'),
+      this.configService.get<string>('SUPABASE_SERVICE_KEY')
     );
-
-    return { taskIds: tasks.map(t => t.id) };
   }
 
-  async getLogsByDeploymentId(deploymentId: string): Promise<LogEntry[]> {
-    return this.db.getLogsByDeploymentId(deploymentId);
+  async processDeploymentLogs(machineName: string, file: Express.Multer.File) {
+    try {
+      // 1. Create deployment record
+      const { data: deployment, error: deploymentError } = await this.supabase
+        .from('deployments')
+        .insert({
+          machine_name: machineName,
+          status: 'processing',
+          start_time: new Date().toISOString(),
+        })
+        .select()
+        .single();
+
+      if (deploymentError) throw deploymentError;
+
+      // 2. Extract zip contents
+      const zip = new AdmZip(file.buffer);
+      const zipEntries = zip.getEntries();
+
+      // 3. Upload each file to Supabase Storage
+      for (const entry of zipEntries) {
+        if (!entry.isDirectory) {
+          const { error: uploadError } = await this.supabase.storage
+            .from('deployment-logs')
+            .upload(
+              `${machineName}/${entry.entryName}`,
+              entry.getData(),
+              {
+                contentType: 'application/octet-stream',
+              }
+            );
+
+          if (uploadError) throw uploadError;
+        }
+      }
+
+      // 4. Queue files for processing
+      await this.processingService.queueDeploymentForProcessing(deployment.id, machineName);
+
+      return { 
+        deploymentId: deployment.id,
+        status: 'queued',
+        message: 'Deployment logs uploaded and queued for processing'
+      };
+    } catch (error) {
+      this.logger.error(`Error processing deployment logs: ${error.message}`, error.stack);
+      throw error;
+    }
   }
 
-  async getErrorsByDeploymentId(deploymentId: string): Promise<LogEntry[]> {
-    return this.db.getErrorsByDeploymentId(deploymentId);
-  }
+  async getDeploymentLogs(deploymentId: string) {
+    const { data, error } = await this.supabase
+      .from('deployment_status_summary')
+      .select('*')
+      .eq('id', deploymentId)
+      .single();
 
-  async getDeploymentTimeline(deploymentId: string): Promise<TimelineEvent[]> {
-    const logs = await this.db.getLogsByDeploymentId(deploymentId);
-    return this.buildTimeline(logs);
-  }
-
-  private async saveToTemp(file: Express.Multer.File): Promise<string> {
-    // Implementation to save file to temporary storage
-    // This could be local filesystem or cloud storage
-    return '';
-  }
-
-  private determineFileType(filename: string): string {
-    if (filename.endsWith('.evtx')) return 'event';
-    if (filename.endsWith('.etl')) return 'trace';
-    if (filename.startsWith('Install_')) return 'installation';
-    return 'configuration';
-  }
-
-  private determinePriority(filename: string): 'high' | 'medium' | 'low' {
-    if (filename.includes('error') || filename.includes('critical')) return 'high';
-    if (filename.startsWith('Install_')) return 'medium';
-    return 'low';
-  }
-
-  private buildTimeline(logs: LogEntry[]): TimelineEvent[] {
-    return logs
-      .map(log => ({
-        timestamp: log.timestamp,
-        event: log.message,
-        type: log.level,
-        source: log.source,
-        metadata: log.metadata,
-      }))
-      .sort((a, b) => a.timestamp.getTime() - b.timestamp.getTime());
+    if (error) throw error;
+    return data;
   }
 }

@@ -38,3 +38,8 @@ next-env.d.ts
 # IDE
 .idea
 .vscode
+
+# deployment logs
+*.zip
+EG-*.zip
+deployment-logs/

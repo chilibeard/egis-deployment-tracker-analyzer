@@ -1,9 +1,9 @@
 import { Module } from '@nestjs/common';
+import { ConfigModule } from '@nestjs/config';
 import { ProcessingService } from './processing.service';
-import { DatabaseModule } from '../database/database.module';
 
 @Module({
-  imports: [DatabaseModule],
+  imports: [ConfigModule],
   providers: [ProcessingService],
   exports: [ProcessingService],
 })
