@@ -1,0 +1,266 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250218193217
+Username: EGIS\SYSTEM
+RunAs User: EGIS\SYSTEM
+Configuration Name: 
+Machine: EG-B24XLYMTV1D9 (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\WINDOWS\System32\windowsPowershell\v1.0\Powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -WindowStyle Hidden -File Install_Debloat-Apps_1.2.ps1
+Process ID: 9928
+PSVersion: 5.1.26100.2161
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.2161
+BuildVersion: 10.0.26100.2161
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\ProgramData\Egis\logs\Install_Debloat-Apps_1.2.log
+Trying to remove Microsoft.BingNews.
+
+
+Path          :
+Online        : True
+RestartNeeded : False
+
+Trying to remove Microsoft.GetHelp.
+Path          :
+Online        : True
+RestartNeeded : False
+
+Trying to remove Microsoft.Getstarted.
+Trying to remove Microsoft.Messaging.
+Trying to remove Microsoft.Microsoft3DViewer.
+Trying to remove Microsoft.MicrosoftOfficeHub.
+Path          :
+Online        : True
+RestartNeeded : False
+
+Trying to remove Microsoft.MicrosoftSolitaireCollection.
+Path          :
+Online        : True
+RestartNeeded : False
+
+Trying to remove Microsoft.NetworkSpeedTest.
+Trying to remove Microsoft.MixedReality.Portal.
+Trying to remove Microsoft.News.
+Trying to remove Microsoft.Office.Lens.
+Trying to remove Microsoft.Office.OneNote.
+Trying to remove Microsoft.Office.Sway.
+Trying to remove Microsoft.OneConnect.
+Trying to remove Microsoft.People.
+Trying to remove Microsoft.Print3D.
+Trying to remove Microsoft.SkypeApp.
+Trying to remove Microsoft.Office.Todo.List.
+Trying to remove microsoft.windowscommunicationsapps.
+Trying to remove Microsoft.WindowsFeedbackHub.
+Path          :
+Online        : True
+RestartNeeded : False
+
+Trying to remove Microsoft.WindowsMaps.
+Trying to remove Microsoft.WindowsSoundRecorder.
+Path          :
+Online        : True
+RestartNeeded : False
+
+Trying to remove Microsoft.Xbox.TCUI.
+Path          :
+Online        : True
+RestartNeeded : False
+
+Trying to remove Microsoft.XboxApp.
+Trying to remove Microsoft.XboxGameOverlay.
+Trying to remove Microsoft.XboxIdentityProvider.
+Path          :
+Online        : True
+RestartNeeded : False
+
+Trying to remove Microsoft.XboxSpeechToTextOverlay.
+Path          :
+Online        : True
+RestartNeeded : False
+
+Trying to remove Microsoft.ZuneMusic.
+Path          :
+Online        : True
+RestartNeeded : False
+
+Trying to remove Microsoft.ZuneVideo.
+Trying to remove Microsoft.YourPhone.
+Path          :
+Online        : True
+RestartNeeded : False
+
+Trying to remove Microsoft.XboxGamingOverlay_5.721.10202.0_neutral_~_8wekyb3d8bbwe.
+Trying to remove Microsoft.GamingApp.
+Path          :
+Online        : True
+RestartNeeded : False
+
+Trying to remove SpotifyAB.SpotifyMusic.
+Trying to remove Disney.37853FC22B2CE.
+Trying to remove *EclipseManager*.
+Trying to remove *ActiproSoftwareLLC*.
+Trying to remove *AdobeSystemsIncorporated.AdobePhotoshopExpress*.
+Trying to remove *Duolingo-LearnLanguagesforFree*.
+Trying to remove *PandoraMediaInc*.
+Trying to remove *CandyCrush*.
+Trying to remove *BubbleWitch3Saga*.
+Trying to remove *Wunderlist*.
+Trying to remove *Flipboard*.
+Trying to remove *Twitter*.
+Trying to remove *Facebook*.
+Trying to remove *Spotify*.
+Trying to remove *Minecraft*.
+Trying to remove *Royal Revolt*.
+Trying to remove *Sway*.
+Trying to remove *Speed Test*.
+Trying to remove *Dolby*.
+Path          :
+Online        : True
+RestartNeeded : False
+
+Path          :
+Online        : True
+RestartNeeded : False
+
+Trying to remove *Office*.
+Trying to remove *Disney*.
+Trying to remove clipchamp.clipchamp.
+Path          :
+Online        : True
+RestartNeeded : False
+
+Trying to remove *gaming*.
+Path          :
+Online        : True
+RestartNeeded : False
+
+Trying to remove MicrosoftCorporationII.MicrosoftFamily.
+Trying to remove *Microsoft.Advertising.Xaml_10.1712.5.0_x64__8wekyb3d8bbwe*.
+Trying to remove *Microsoft.Advertising.Xaml_10.1712.5.0_x86__8wekyb3d8bbwe*.
+Trying to remove *Microsoft.BingWeather*.
+Path          :
+Online        : True
+RestartNeeded : False
+
+Trying to remove Microsoft.WindowsCamera*.
+Path          :
+Online        : True
+RestartNeeded : False
+
+Trying to remove Microsoft.WindowsAlarms*.
+Path          :
+Online        : True
+RestartNeeded : False
+
+Trying to remove Microsoft.WindowsFeedbackHub*.
+Trying to remove DolbyLaboratories.DolbyAccess*.
+Trying to remove Microsoft.MicrosoftStickyNotes*.
+Path          :
+Online        : True
+RestartNeeded : False
+
+Trying to remove SynapticsIncorporated.SynapticsUtilies*.
+Trying to remove SynapticsIncorporated.SynapticsControlPanel*.
+Path          :
+Online        : True
+RestartNeeded : False
+
+Trying to remove RealtekSemiconductorCorp.RealtekAudioControl*.
+Path          :
+Online        : True
+RestartNeeded : False
+
+Trying to remove Microsoft.Windows.Cortana*.
+Trying to remove Microsoft.MSPaint*.
+Trying to remove AdvancedMicroDevicesInc-2.AMDRadeonSoftware*.
+Trying to remove MicrosoftWindows.Client.CBS*.
+PS>TerminatingError(Remove-AppxPackage): "Removal failed. Please contact your software vendor.
+
+Deployment DeStage operation with target volume C: on Package MicrosoftWindows.Client.CBS_1000.26100.48.0_x64__cw5n1h2txyewy from:   failed with error 0x80070032. See http://go.microsoft.com/fwlink/?LinkId=235160 for help diagnosing app deployment issues."
+Trying to remove *Microsoft.549981C3F5F10*.
+Removing HKCR:\Extensions\ContractId\Windows.BackgroundTasks\PackageId\46928bounde.EclipseManager_2.2.4.51_neutral__a5h4egax66k6y from registry
+Removing HKCR:\Extensions\ContractId\Windows.BackgroundTasks\PackageId\ActiproSoftwareLLC.562882FEEB491_2.6.18.18_neutral__24pqs290vpjk0 from registry
+Removing HKCR:\Extensions\ContractId\Windows.BackgroundTasks\PackageId\Microsoft.MicrosoftOfficeHub_17.7909.7600.0_x64__8wekyb3d8bbwe from registry
+Removing HKCR:\Extensions\ContractId\Windows.BackgroundTasks\PackageId\Microsoft.PPIProjection_10.0.15063.0_neutral_neutral_cw5n1h2txyewy from registry
+Removing HKCR:\Extensions\ContractId\Windows.BackgroundTasks\PackageId\Microsoft.XboxGameCallableUI_1000.15063.0.0_neutral_neutral_cw5n1h2txyewy from registry
+Removing HKCR:\Extensions\ContractId\Windows.BackgroundTasks\PackageId\Microsoft.XboxGameCallableUI_1000.16299.15.0_neutral_neutral_cw5n1h2txyewy from registry
+Removing HKCR:\Extensions\ContractId\Windows.File\PackageId\ActiproSoftwareLLC.562882FEEB491_2.6.18.18_neutral__24pqs290vpjk0 from registry
+Removing HKCR:\Extensions\ContractId\Windows.Launch\PackageId\46928bounde.EclipseManager_2.2.4.51_neutral__a5h4egax66k6y from registry
+Removing HKCR:\Extensions\ContractId\Windows.Launch\PackageId\ActiproSoftwareLLC.562882FEEB491_2.6.18.18_neutral__24pqs290vpjk0 from registry
+Removing HKCR:\Extensions\ContractId\Windows.Launch\PackageId\Microsoft.PPIProjection_10.0.15063.0_neutral_neutral_cw5n1h2txyewy from registry
+Removing HKCR:\Extensions\ContractId\Windows.Launch\PackageId\Microsoft.XboxGameCallableUI_1000.15063.0.0_neutral_neutral_cw5n1h2txyewy from registry
+Removing HKCR:\Extensions\ContractId\Windows.Launch\PackageId\Microsoft.XboxGameCallableUI_1000.16299.15.0_neutral_neutral_cw5n1h2txyewy from registry
+Removing HKCR:\Extensions\ContractId\Windows.PreInstalledConfigTask\PackageId\Microsoft.MicrosoftOfficeHub_17.7909.7600.0_x64__8wekyb3d8bbwe from registry
+Removing HKCR:\Extensions\ContractId\Windows.Protocol\PackageId\ActiproSoftwareLLC.562882FEEB491_2.6.18.18_neutral__24pqs290vpjk0 from registry
+Removing HKCR:\Extensions\ContractId\Windows.Protocol\PackageId\Microsoft.PPIProjection_10.0.15063.0_neutral_neutral_cw5n1h2txyewy from registry
+Removing HKCR:\Extensions\ContractId\Windows.Protocol\PackageId\Microsoft.XboxGameCallableUI_1000.15063.0.0_neutral_neutral_cw5n1h2txyewy from registry
+Removing HKCR:\Extensions\ContractId\Windows.Protocol\PackageId\Microsoft.XboxGameCallableUI_1000.16299.15.0_neutral_neutral_cw5n1h2txyewy from registry
+Removing HKCR:\Extensions\ContractId\Windows.ShareTarget\PackageId\ActiproSoftwareLLC.562882FEEB491_2.6.18.18_neutral__24pqs290vpjk0 from registry
+Disabling Windows Feedback Experience program
+
+Property      : {}
+PSPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Advert
+                isingInfo
+PSParentPath  : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion
+PSChildName   : AdvertisingInfo
+PSDrive       : HKLM
+PSProvider    : Microsoft.PowerShell.Core\Registry
+PSIsContainer : True
+SubKeyCount   : 0
+View          : Default
+Handle        : Microsoft.Win32.SafeHandles.SafeRegistryHandle
+ValueCount    : 0
+Name          : HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AdvertisingInfo
+
+Stopping Cortana from being used as part of your Windows Search Function
+Disabling Bing Search in Start Menu
+Adding Registry key to prevent bloatware apps from returning
+
+Property      : {}
+PSPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CloudContent
+PSParentPath  : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows
+PSChildName   : CloudContent
+PSDrive       : HKLM
+PSProvider    : Microsoft.PowerShell.Core\Registry
+PSIsContainer : True
+SubKeyCount   : 0
+View          : Default
+Handle        : Microsoft.Win32.SafeHandles.SafeRegistryHandle
+ValueCount    : 0
+Name          : HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CloudContent
+
+Disabling Wi-Fi Sense
+Disabling scheduled tasks
+
+Actions            : {MSFT_TaskExecAction}
+Author             : Microsoft
+Date               :
+Description        : XblGameSave Standby Task
+Documentation      :
+Principal          : MSFT_TaskPrincipal2
+SecurityDescriptor :
+Settings           : MSFT_TaskSettings3
+Source             :
+State              : Disabled
+TaskName           : XblGameSaveTask
+TaskPath           : \Microsoft\XblGameSave\
+Triggers           : {MSFT_TaskIdleTrigger}
+URI                : \Microsoft\XblGameSave\XblGameSaveTask
+Version            :
+PSComputerName     :
+
+Removing Windows 11 Customisations
+Removed Xbox Gaming Overlay
+Removed Xbox Game Callable UI
+Removed Cortana
+Removed Get Started
+Removed Parental Controls
+Completed
+**********************
+Windows PowerShell transcript end
+End time: 20250218193255
+**********************

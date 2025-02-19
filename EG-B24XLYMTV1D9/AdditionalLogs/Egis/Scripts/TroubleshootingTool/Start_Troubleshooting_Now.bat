@@ -1,0 +1,1 @@
+Powershell.exe -ExecutionPolicy Bypass -File %~dp0Execute_TroubleshootingTool_1.1.ps1

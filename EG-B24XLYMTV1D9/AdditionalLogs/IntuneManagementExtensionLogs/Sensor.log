@@ -1,0 +1,34 @@
+﻿<![LOG[Created directory on C:\Program Files (x86)\Microsoft Intune Management Extension\ListenerFramework]LOG]!><time="19:23:35.0213434" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[Overriding default identifier with 7a1190a9-1581-4e81-871e-fb5fbba6950c]LOG]!><time="19:23:35.0223390" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[Successfully initialize SensorFramework.]LOG]!><time="19:23:35.0223390" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[Received 5 configurations. Start querying events...]LOG]!><time="19:23:35.4052843" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[No information about autologger is found.]LOG]!><time="19:23:35.4202898" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[Cannot flush Trace session {7a1190a9-1581-4e81-871e-fb5fbba6950c} because it is not found.]LOG]!><time="19:23:35.8493522" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[[RawEventConfig] Returning 0 events from QueryGuid:e4cd0c46-8d75-4d93-b5ac-99cf25388591]LOG]!><time="19:23:36.0837243" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[[RawEventConfig] Returning 0 events from QueryGuid:2ef6314a-cc15-487d-abfc-24a02cc9180f]LOG]!><time="19:23:36.0847262" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[[RawEventConfig] Returning 0 events from QueryGuid:488bf6dd-6375-434b-ba35-4faefbfb8c41]LOG]!><time="19:23:36.0857246" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[[RawEventConfig] Returning 0 events from QueryGuid:d8900422-33e5-4f4c-847c-1c1d374d3697]LOG]!><time="19:23:36.0977244" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[[RawEventConfig] Returning 0 events from QueryGuid:e7eee33f-a719-49e4-91e6-e379ce5d4d3d]LOG]!><time="19:23:36.0987239" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[Successfully query for events. Returning result.]LOG]!><time="19:23:36.4453265" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[Created directory on C:\Program Files (x86)\Microsoft Intune Management Extension\ListenerFramework]LOG]!><time="19:26:33.5332010" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[Overriding default identifier with 7a1190a9-1581-4e81-871e-fb5fbba6950c]LOG]!><time="19:26:33.5332010" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[Successfully initialize SensorFramework.]LOG]!><time="19:26:33.5332010" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[Received 5 configurations. Start querying events...]LOG]!><time="19:26:33.6147202" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[No information about autologger is found.]LOG]!><time="19:26:33.6227235" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[[RawEventConfig] Returning 0 events from QueryGuid:e4cd0c46-8d75-4d93-b5ac-99cf25388591]LOG]!><time="19:26:33.7532754" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[[RawEventConfig] Returning 0 events from QueryGuid:2ef6314a-cc15-487d-abfc-24a02cc9180f]LOG]!><time="19:26:33.7602750" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[[RawEventConfig] Returning 3 events from QueryGuid:488bf6dd-6375-434b-ba35-4faefbfb8c41]LOG]!><time="19:26:33.8540369" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[[RawEventConfig] Returning 0 events from QueryGuid:d8900422-33e5-4f4c-847c-1c1d374d3697]LOG]!><time="19:26:33.8580379" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[[RawEventConfig] Returning 0 events from QueryGuid:e7eee33f-a719-49e4-91e6-e379ce5d4d3d]LOG]!><time="19:26:33.8631791" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[Successfully query for events. Returning result.]LOG]!><time="19:26:34.2433238" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[Created directory on C:\Program Files (x86)\Microsoft Intune Management Extension\ListenerFramework]LOG]!><time="19:39:59.0361180" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[Overriding default identifier with 7a1190a9-1581-4e81-871e-fb5fbba6950c]LOG]!><time="19:39:59.0361180" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[Successfully initialize SensorFramework.]LOG]!><time="19:39:59.0361180" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[Received 5 configurations. Start querying events...]LOG]!><time="19:39:59.1211607" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[No information about autologger is found.]LOG]!><time="19:39:59.1317926" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[[RawEventConfig] Returning 0 events from QueryGuid:e4cd0c46-8d75-4d93-b5ac-99cf25388591]LOG]!><time="19:39:59.2003750" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[[RawEventConfig] Returning 0 events from QueryGuid:2ef6314a-cc15-487d-abfc-24a02cc9180f]LOG]!><time="19:39:59.2103842" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[[RawEventConfig] Returning 6 events from QueryGuid:488bf6dd-6375-434b-ba35-4faefbfb8c41]LOG]!><time="19:39:59.2635726" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[[RawEventConfig] Returning 0 events from QueryGuid:d8900422-33e5-4f4c-847c-1c1d374d3697]LOG]!><time="19:39:59.2733552" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[[RawEventConfig] Returning 0 events from QueryGuid:e7eee33f-a719-49e4-91e6-e379ce5d4d3d]LOG]!><time="19:39:59.2733552" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">
+<![LOG[Successfully query for events. Returning result.]LOG]!><time="19:39:59.4787387" date="2-18-2025" component="SensorFramework" context="" type="1" thread="13" file="">

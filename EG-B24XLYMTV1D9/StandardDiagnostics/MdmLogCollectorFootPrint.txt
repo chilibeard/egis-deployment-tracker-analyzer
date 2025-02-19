@@ -1,0 +1,141 @@
+--- Start at:2025-02-19T00:51:45
+"AreaName" : "deviceenrollment;deviceprovisioning;autopilot;"
+Collected EventViewer Entry: microsoft-windows-aad/operational
+Collected EventViewer Entry: microsoft-windows-appxdeploymentserver/operational
+Collected EventViewer Entry: microsoft-windows-crypto-ncrypt/operational
+Collected EventViewer Entry: microsoft-windows-devicemanagement-enterprise-diagnostics-provider/admin
+Collected EventViewer Entry: microsoft-windows-devicemanagement-enterprise-diagnostics-provider/autopilot
+Collected EventViewer Entry: microsoft-windows-devicemanagement-enterprise-diagnostics-provider/debug
+Collected EventViewer Entry: microsoft-windows-devicemanagement-enterprise-diagnostics-provider/operational
+Collected EventViewer Entry: microsoft-windows-laps/operational
+Collected EventViewer Entry: microsoft-windows-moderndeployment-diagnostics-provider/autopilot
+Collected EventViewer Entry: microsoft-windows-moderndeployment-diagnostics-provider/diagnostics
+Collected EventViewer Entry: microsoft-windows-moderndeployment-diagnostics-provider/managementservice
+Collected EventViewer Entry: microsoft-windows-user device registration/admin
+Collected EventViewer Entry: microsoft-windows-provisioning-diagnostics-provider/admin
+Collected EventViewer Entry: microsoft-windows-shell-core/operational
+Collected EventViewer Entry: microsoft-windows-assignedaccess/admin
+Collected EventViewer Entry: microsoft-windows-assignedaccess/operational
+Collected EventViewer Entry: microsoft-windows-assignedaccessbroker/admin
+Collected EventViewer Entry: microsoft-windows-assignedaccessbroker/operational
+--- 18 EventViewer entries are collected
+Failed (HResult: 0x80070003) to CollectFileEntry:c:\programdata\microsoft\dc\hostos\*.xml
+Copied file:c:\programdata\microsoft\diagnosticlogcsp\collectors\DiagnosticLogCSP_Collector_DeviceEnrollment_2025_2_18_17_44_21.etl, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\DiagnosticLogCSP_Collector_DeviceEnrollment_2025_2_18_17_44_21.etl
+Copied file:c:\programdata\microsoft\diagnosticlogcsp\collectors\DiagnosticLogCSP_Collector_DeviceEnrollment_2025_2_18_18_33_13.etl, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\DiagnosticLogCSP_Collector_DeviceEnrollment_2025_2_18_18_33_13.etl
+Copied file:c:\windows\system32\logfiles\wmi\Wifi.etl, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Wifi.etl
+Copied file:c:\programdata\microsoft\diagnosticlogcsp\collectors\DiagnosticLogCSP_Collector_DeviceProvisioning_2025_2_18_19_48_9.etl, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\DiagnosticLogCSP_Collector_DeviceProvisioning_2025_2_18_19_48_9.etl
+Copied file:c:\programdata\egis\Logs\Add_Lockscreen&WallpaperFiles_1.0.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Add_Lockscreen&WallpaperFiles_1.0.log
+Copied file:c:\programdata\egis\Logs\CreateTask_ConfigureDeviceForNAC_1.0.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-CreateTask_ConfigureDeviceForNAC_1.0.log
+Copied file:c:\programdata\egis\Logs\Disable_Ivanti_Lunch_on_Startup.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Disable_Ivanti_Lunch_on_Startup.log
+Copied file:c:\programdata\egis\Logs\Firefox-homepage_modify.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Firefox-homepage_modify.log
+Copied file:c:\programdata\egis\Logs\Install-Acrobat_PRO-STD_24.005.20320.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install-Acrobat_PRO-STD_24.005.20320.log
+Copied file:c:\programdata\egis\Logs\Install_7-Zip_24.08.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_7-Zip_24.08.log
+Copied file:c:\programdata\egis\Logs\Install_7-Zip_24.09.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_7-Zip_24.09.log
+Copied file:c:\programdata\egis\Logs\Install_AddCMTrace_1.0.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_AddCMTrace_1.0.log
+Copied file:c:\programdata\egis\Logs\Install_AllowOnlyPrivateStore_1.0.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_AllowOnlyPrivateStore_1.0.log
+Copied file:c:\programdata\egis\Logs\Install_AllowSearchEngineCustomization_1.0.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_AllowSearchEngineCustomization_1.0.log
+Copied file:c:\programdata\egis\Logs\Install_Autopilot-Apps_1.4.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_Autopilot-Apps_1.4.log
+Copied file:c:\programdata\egis\Logs\Install_Autopilot-Baseline_1.6.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_Autopilot-Baseline_1.6.log
+Copied file:c:\programdata\egis\Logs\Install_Autopilot-Wallpaper_1.0.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_Autopilot-Wallpaper_1.0.log
+Copied file:c:\programdata\egis\Logs\Install_AutopilotCompanyPortal_1.3.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_AutopilotCompanyPortal_1.3.log
+Copied file:c:\programdata\egis\Logs\Install_AzureVPN_3.3.1.0.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_AzureVPN_3.3.1.0.log
+Copied file:c:\programdata\egis\Logs\Install_ConfigureNetworkForNAC_1.0.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_ConfigureNetworkForNAC_1.0.log
+Copied file:c:\programdata\egis\Logs\Install_Debloat-Apps_1.2.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_Debloat-Apps_1.2.log
+Copied file:c:\programdata\egis\Logs\Install_Debloat-W11_1.1.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_Debloat-W11_1.1.log
+Copied file:c:\programdata\egis\Logs\Install_Firefoxesr_v128.6.0.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_Firefoxesr_v128.6.0.log
+Copied file:c:\programdata\egis\Logs\Install_FortiClientVPN_7.4.0.1658.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_FortiClientVPN_7.4.0.1658.log
+Copied file:c:\programdata\egis\Logs\Install_GoogleEarthPro_7.3.6.9345.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_GoogleEarthPro_7.3.6.9345.log
+Copied file:c:\programdata\egis\Logs\Install_Greenshot_1.3.277v2.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_Greenshot_1.3.277v2.log
+Copied file:c:\programdata\egis\Logs\Install_inkscape_1.3.2.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_inkscape_1.3.2.log
+Copied file:c:\programdata\egis\Logs\Install_Keepass_2.57.1.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_Keepass_2.57.1.log
+Copied file:c:\programdata\egis\Logs\Install_KeepDeviceAwake_1.0.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_KeepDeviceAwake_1.0.log
+Copied file:c:\programdata\egis\Logs\Install_LAPS-UI.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_LAPS-UI.log
+Copied file:c:\programdata\egis\Logs\Install_LENOVOCOMMERCIALVANTAGE_10.2407.66.0_v2.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_LENOVOCOMMERCIALVANTAGE_10.2407.66.0_v2.log
+Copied file:c:\programdata\egis\Logs\Install_ModifyAdminAccounts_1.1.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_ModifyAdminAccounts_1.1.log
+Copied file:c:\programdata\egis\Logs\Install_MSI_FortiClientVPN_7.4.0.1658.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_MSI_FortiClientVPN_7.4.0.1658.log
+Copied file:c:\programdata\egis\Logs\Install_Nexthink_24.10.01039.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_Nexthink_24.10.01039.log
+Copied file:c:\programdata\egis\Logs\Install_OCSAgent_2.10.1.0.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_OCSAgent_2.10.1.0.log
+Copied file:c:\programdata\egis\Logs\Install_Office-365-apps_16.0.17029.20140.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_Office-365-apps_16.0.17029.20140.log
+Copied file:c:\programdata\egis\Logs\Install_ReaderDC_24.002.20857.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_ReaderDC_24.002.20857.log
+Copied file:c:\programdata\egis\Logs\Install_Teams_24193.1805.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_Teams_24193.1805.log
+Copied file:c:\programdata\egis\Logs\Install_TroubleshootingTool_1.1.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_TroubleshootingTool_1.1.log
+Copied file:c:\programdata\egis\Logs\Install_Urbanist_Font_V1.0.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_Urbanist_Font_V1.0.log
+Copied file:c:\programdata\egis\Logs\Install_VisualC++-2015-2022-x64_14.40.33810.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_VisualC++-2015-2022-x64_14.40.33810.log
+Copied file:c:\programdata\egis\Logs\Install_VisualC++-2015-2022-x86_14.40.33810.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_VisualC++-2015-2022-x86_14.40.33810.log
+Copied file:c:\programdata\egis\Logs\Install_VLC_3.0.21.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_VLC_3.0.21.log
+Copied file:c:\programdata\egis\Logs\Install_Webview2_1.0.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Install_Webview2_1.0.log
+Copied file:c:\programdata\egis\Logs\Remediation_Disable-mDNS_1.0.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Remediation_Disable-mDNS_1.0.log
+Copied file:c:\programdata\egis\Logs\Remediation_Disable-NBT-NS_1.0.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Remediation_Disable-NBT-NS_1.0.log
+Copied file:c:\programdata\egis\Logs\Remediation_Disable_MediaFeatures_v1.0.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Remediation_Disable_MediaFeatures_v1.0.log
+Copied file:c:\programdata\egis\Logs\Remediation_GreenshotIni_1.0.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Remediation_GreenshotIni_1.0.log
+Copied file:c:\programdata\egis\Logs\Task_DisableNBT-NS_1.0.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Task_DisableNBT-NS_1.0.log
+Copied file:c:\programdata\egis\Logs\Task_FortiClientVPN_7.4.0.1658.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Task_FortiClientVPN_7.4.0.1658.log
+Copied file:c:\programdata\egis\Logs\Uninstall-FlashPlayer-1.0.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Uninstall-FlashPlayer-1.0.log
+Copied file:c:\programdata\egis\Logs\Uninstall_Adobe-Shockwave-V1.0.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Uninstall_Adobe-Shockwave-V1.0.log
+Copied file:c:\programdata\egis\Logs\Uninstall_FusionInventory-Agent_2.3.2.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Uninstall_FusionInventory-Agent_2.3.2.log
+Copied file:c:\programdata\egis\Logs\Uninstall_inkscape_1.3.2.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Uninstall_inkscape_1.3.2.log
+Copied file:c:\programdata\egis\Logs\Uninstall_MSI_FortiClientVPN_7.4.0.1658.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Uninstall_MSI_FortiClientVPN_7.4.0.1658.log
+Copied file:c:\programdata\egis\Logs\Uninstall_PDFCreator.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Uninstall_PDFCreator.log
+Copied file:c:\programdata\egis\Logs\Uninstall_Snow-Inventory-Agent_6.7.0.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Uninstall_Snow-Inventory-Agent_6.7.0.log
+Copied file:c:\programdata\egis\Logs\Uninstall_WiseDiskCleaner.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Logs-Uninstall_WiseDiskCleaner.log
+Copied file:c:\programdata\microsoft\diagnosticlogcsp\collectors\DiagnosticLogCSP_Collector_Autopilot_2025_2_18_17_44_20.etl, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\DiagnosticLogCSP_Collector_Autopilot_2025_2_18_17_44_20.etl
+Copied file:c:\programdata\microsoft\diagnosticlogcsp\collectors\DiagnosticLogCSP_Collector_Autopilot_2025_2_18_18_31_42.etl, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\DiagnosticLogCSP_Collector_Autopilot_2025_2_18_18_31_42.etl
+Copied file:c:\programdata\microsoft\diagnosticlogcsp\collectors\DiagnosticLogCSP_Collector_Autopilot_2025_2_18_19_27_6.etl, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\DiagnosticLogCSP_Collector_Autopilot_2025_2_18_19_27_6.etl
+Copied file:c:\programdata\microsoft\diagnosticlogcsp\collectors\DiagnosticLogCSP_Collector_Autopilot_2025_2_18_19_51_43.etl, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\DiagnosticLogCSP_Collector_Autopilot_2025_2_18_19_51_43.etl
+Copied file:c:\programdata\microsoft\intunemanagementextension\logs\AgentExecutor.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\AgentExecutor.log
+Copied file:c:\programdata\microsoft\intunemanagementextension\logs\AppActionProcessor.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\AppActionProcessor.log
+Copied file:c:\programdata\microsoft\intunemanagementextension\logs\AppWorkload-20250218-193128.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\AppWorkload-20250218-193128.log
+Copied file:c:\programdata\microsoft\intunemanagementextension\logs\AppWorkload-20250218-194137.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\AppWorkload-20250218-194137.log
+Copied file:c:\programdata\microsoft\intunemanagementextension\logs\AppWorkload.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\AppWorkload.log
+Copied file:c:\programdata\microsoft\intunemanagementextension\logs\ClientCertCheck.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\ClientCertCheck.log
+Copied file:c:\programdata\microsoft\intunemanagementextension\logs\DeviceHealthMonitoring.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\DeviceHealthMonitoring.log
+Copied file:c:\programdata\microsoft\intunemanagementextension\logs\HealthScripts.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\HealthScripts.log
+Copied file:c:\programdata\microsoft\intunemanagementextension\logs\IntuneManagementExtension.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\IntuneManagementExtension.log
+Copied file:c:\programdata\microsoft\intunemanagementextension\logs\Sensor.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Sensor.log
+Copied file:c:\programdata\microsoft\intunemanagementextension\logs\Win32AppInventory.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\Win32AppInventory.log
+Copied file:c:\windows\panther\unattendgc\setupact.log, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\setupact.log
+Failed (HResult: 0x80070002) to CollectFileEntry:c:\windows\provisioning\autopilot\autopilotconfigurationfile.json
+Failed (HResult: 0x80070002) to CollectFileEntry:c:\windows\provisioning\autopilot\profileouput.pml
+Failed (HResult: 0x80070003) to CollectFileEntry:c:\windows\servicestate\autopilot\*
+Copied file:c:\windows\servicestate\wmansvc\AutopilotDDSZTDFile.json, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\AutopilotDDSZTDFile.json
+Copied file:c:\windows\system32\logfiles\wmi\CloudExperienceHostOobe.etl.001, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\CloudExperienceHostOobe.etl.001
+Copied file:c:\windows\system32\logfiles\wmi\CloudExperienceHostOobe.etl.002, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\CloudExperienceHostOobe.etl.002
+Copied file:c:\windows\system32\logfiles\wmi\CloudExperienceHostOobe.etl.003, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\CloudExperienceHostOobe.etl.003
+Copied file:c:\windows\system32\logfiles\wmi\CloudExperienceHostOobe.etl.004, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\CloudExperienceHostOobe.etl.004
+Copied file:c:\windows\system32\winevt\logs\BootstrapperAgentServiceLogProvider.evtx, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\BootstrapperAgentServiceLogProvider.evtx
+Copied file:c:\users\aa-sup\appdata\local\temp\\LicensingDiag_Output.txt, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\LicensingDiag_Output.txt
+Copied file:c:\users\aa-sup\appdata\local\temp\\LicensingDiag.cab, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\LicensingDiag.cab
+Copied file:c:\users\aa-sup\appdata\local\temp\\DeviceHash_EG-B24XLYMTV1D9.csv, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\DeviceHash_EG-B24XLYMTV1D9.csv
+Copied file:c:\users\aa-sup\appdata\local\temp\\TpmHliInfo_Output.txt, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\TpmHliInfo_Output.txt
+Copied file:c:\users\aa-sup\appdata\local\temp\\DiagnosticsFrameworkData.json, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\DiagnosticsFrameworkData.json
+Copied file:c:\users\aa-sup\appdata\local\temp\\UEFI_Data_Output.txt, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\UEFI_Data_Output.txt
+Copied file:c:\users\aa-sup\appdata\local\temp\MDMDiagReport.xml, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\MDMDiagReport.xml
+Copied file:c:\users\aa-sup\appdata\local\temp\MDMDiagHTMLReport.html, to:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\MDMDiagHTMLReport.html
+--- 22 file entries are collected
+Failed (HResult:0x80070002) to dump HKCU registry:software\microsoft\enterprisemodernappmanagement
+Failed (HResult:0x80070002) to dump HKCU registry:software\microsoft\scep
+Succeeded to dump HKCU registry:software\microsoft\windows\assignedaccessconfiguration
+Failed (HResult:0x80070002) to dump HKCU registry:software\microsoft\windows\currentversion\useroobe
+--- 4 HKCU registry entries are collected
+Failed (HResult:0x80070002) to dump HKLM registry:software\microsoft\cdndownload
+Succeeded to dump HKLM registry:software\microsoft\declaredconfiguration
+Succeeded to dump HKLM registry:software\microsoft\dmorchestrator
+Succeeded to dump HKLM registry:software\microsoft\enrollment
+Succeeded to dump HKLM registry:software\microsoft\enrollments
+Succeeded to dump HKLM registry:software\microsoft\enterprisedesktopappmanagement
+Succeeded to dump HKLM registry:software\microsoft\enterpriseresourcemanager
+Succeeded to dump HKLM registry:software\microsoft\policymanager
+Succeeded to dump HKLM registry:software\microsoft\provisioning
+Failed (HResult:0x80070002) to dump HKLM registry:software\microsoft\scep
+Succeeded to dump HKLM registry:system\currentcontrolset\control\clouddomainjoin
+Succeeded to dump HKLM registry:software\microsoft\multivariant
+Succeeded to dump HKLM registry:software\microsoft\windows\autopilot\apps
+Succeeded to dump HKLM registry:software\microsoft\intunemanagementextension
+Succeeded to dump HKLM registry:software\microsoft\windows nt\currentversion\update\targetinginfo
+Succeeded to dump HKLM registry:software\microsoft\windows\assignedaccessconfiguration
+Succeeded to dump HKLM registry:software\microsoft\windows\assignedaccesscsp
+Succeeded to dump HKLM registry:software\microsoft\windows\autopilot
+Succeeded to dump HKLM registry:software\microsoft\windows\currentversion\setup\oobe
+--- 19 HKLM registry entries are collected
+metadataFile generated:C:\Users\aa-sup\AppData\Local\Temp\MdmLogCollector_5869\MdmDiagLogMetadata.json
+--- End at:2025-02-19T00:51:45

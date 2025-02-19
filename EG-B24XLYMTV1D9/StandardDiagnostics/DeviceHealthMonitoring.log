@@ -1,0 +1,124 @@
+﻿<![LOG[Pausing transmission...]LOG]!><time="17:42:27.7298247" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[enableDebugEvents is 0]LOG]!><time="17:42:27.7298247" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[[EventManager] Overriding OS version property to 10.0.26100.3194.amd64fre.ge_release.240331-1435]LOG]!><time="17:42:27.8886736" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[Pausing transmission...]LOG]!><time="17:42:27.8886736" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[enableDebugEvents is 0]LOG]!><time="17:42:27.8886736" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[[EventManager] Overriding OS version property to 10.0.26100.3194.amd64fre.ge_release.240331-1435]LOG]!><time="17:42:27.8886736" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[Pausing transmission...]LOG]!><time="17:42:27.8886736" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[enableDebugEvents is 0]LOG]!><time="17:42:27.8886736" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[[EventManager] Overriding OS version property to 10.0.26100.3194.amd64fre.ge_release.240331-1435]LOG]!><time="17:42:27.8886736" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[Timer to refresh AAD token has started.]LOG]!><time="17:42:27.8886736" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[AAD token is empty. Fetching new AAD token.]LOG]!><time="17:42:27.8886736" date="2-18-2025" component="DataCollection" context="" type="1" thread="10" file="">
+<![LOG[GetAADAuthToken - Domain join information can't be null or empty.]LOG]!><time="17:42:27.9524525" date="2-18-2025" component="DataCollection" context="" type="3" thread="10" file="">
+<![LOG[AAD token is empty. Fetching new AAD token.]LOG]!><time="17:47:27.9000180" date="2-18-2025" component="DataCollection" context="" type="1" thread="16" file="">
+<![LOG[GetAADAuthToken - Domain join information can't be null or empty.]LOG]!><time="17:47:27.9000180" date="2-18-2025" component="DataCollection" context="" type="3" thread="16" file="">
+<![LOG[AAD token is empty. Fetching new AAD token.]LOG]!><time="17:52:27.9253478" date="2-18-2025" component="DataCollection" context="" type="1" thread="10" file="">
+<![LOG[GetAADAuthToken - Domain join information can't be null or empty.]LOG]!><time="17:52:27.9253478" date="2-18-2025" component="DataCollection" context="" type="3" thread="10" file="">
+<![LOG[AAD token is empty. Fetching new AAD token.]LOG]!><time="17:57:27.9278980" date="2-18-2025" component="DataCollection" context="" type="1" thread="8" file="">
+<![LOG[GetAADAuthToken - Domain join information can't be null or empty.]LOG]!><time="17:57:27.9278980" date="2-18-2025" component="DataCollection" context="" type="3" thread="8" file="">
+<![LOG[AAD token is empty. Fetching new AAD token.]LOG]!><time="18:02:27.9345939" date="2-18-2025" component="DataCollection" context="" type="1" thread="14" file="">
+<![LOG[GetAADAuthToken - Domain join information can't be null or empty.]LOG]!><time="18:02:27.9345939" date="2-18-2025" component="DataCollection" context="" type="3" thread="14" file="">
+<![LOG[AAD token is empty. Fetching new AAD token.]LOG]!><time="18:07:27.9494111" date="2-18-2025" component="DataCollection" context="" type="1" thread="14" file="">
+<![LOG[GetAADAuthToken - Domain join information can't be null or empty.]LOG]!><time="18:07:27.9494111" date="2-18-2025" component="DataCollection" context="" type="3" thread="14" file="">
+<![LOG[AAD token is empty. Fetching new AAD token.]LOG]!><time="18:12:27.9574746" date="2-18-2025" component="DataCollection" context="" type="1" thread="6" file="">
+<![LOG[GetAADAuthToken - Domain join information can't be null or empty.]LOG]!><time="18:12:27.9574746" date="2-18-2025" component="DataCollection" context="" type="3" thread="6" file="">
+<![LOG[AAD token is empty. Fetching new AAD token.]LOG]!><time="18:17:27.9694525" date="2-18-2025" component="DataCollection" context="" type="1" thread="24" file="">
+<![LOG[GetAADAuthToken - Domain join information can't be null or empty.]LOG]!><time="18:17:27.9694525" date="2-18-2025" component="DataCollection" context="" type="3" thread="24" file="">
+<![LOG[AAD token is empty. Fetching new AAD token.]LOG]!><time="18:22:27.9779825" date="2-18-2025" component="DataCollection" context="" type="1" thread="17" file="">
+<![LOG[GetAADAuthToken - Domain join information can't be null or empty.]LOG]!><time="18:22:27.9779825" date="2-18-2025" component="DataCollection" context="" type="3" thread="17" file="">
+<![LOG[Pausing transmission...]LOG]!><time="18:31:48.5130158" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[enableDebugEvents is 0]LOG]!><time="18:31:48.5130158" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[[EventManager] Overriding OS version property to 10.0.26100.3194.amd64fre.ge_release.240331-1435]LOG]!><time="18:31:48.5250259" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[Pausing transmission...]LOG]!><time="18:31:48.5250259" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[enableDebugEvents is 0]LOG]!><time="18:31:48.5250259" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[[EventManager] Overriding OS version property to 10.0.26100.3194.amd64fre.ge_release.240331-1435]LOG]!><time="18:31:48.5250259" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[Pausing transmission...]LOG]!><time="18:31:48.5250259" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[enableDebugEvents is 0]LOG]!><time="18:31:48.5250259" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[[EventManager] Overriding OS version property to 10.0.26100.3194.amd64fre.ge_release.240331-1435]LOG]!><time="18:31:48.5250259" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[Timer to refresh AAD token has started.]LOG]!><time="18:31:48.5250259" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[AAD token is empty. Fetching new AAD token.]LOG]!><time="18:31:48.5250259" date="2-18-2025" component="DataCollection" context="" type="1" thread="10" file="">
+<![LOG[GetAADAuthToken - Domain join information can't be null or empty.]LOG]!><time="18:31:48.5645454" date="2-18-2025" component="DataCollection" context="" type="3" thread="10" file="">
+<![LOG[AAD token is empty. Fetching new AAD token.]LOG]!><time="18:36:48.5477393" date="2-18-2025" component="DataCollection" context="" type="1" thread="15" file="">
+<![LOG[GetAADAuthToken - Domain join information can't be null or empty.]LOG]!><time="18:36:48.5526834" date="2-18-2025" component="DataCollection" context="" type="3" thread="15" file="">
+<![LOG[AAD token is empty. Fetching new AAD token.]LOG]!><time="18:41:48.9810395" date="2-18-2025" component="DataCollection" context="" type="1" thread="15" file="">
+<![LOG[GetAADAuthToken - Domain join information can't be null or empty.]LOG]!><time="18:41:48.9850015" date="2-18-2025" component="DataCollection" context="" type="3" thread="15" file="">
+<![LOG[AAD token is empty. Fetching new AAD token.]LOG]!><time="18:46:49.8496138" date="2-18-2025" component="DataCollection" context="" type="1" thread="15" file="">
+<![LOG[GetAADAuthToken - Domain join information can't be null or empty.]LOG]!><time="18:46:49.8496138" date="2-18-2025" component="DataCollection" context="" type="3" thread="15" file="">
+<![LOG[AAD token is empty. Fetching new AAD token.]LOG]!><time="18:51:49.8656137" date="2-18-2025" component="DataCollection" context="" type="1" thread="28" file="">
+<![LOG[GetAADAuthToken - Domain join information can't be null or empty.]LOG]!><time="18:51:49.8697212" date="2-18-2025" component="DataCollection" context="" type="3" thread="28" file="">
+<![LOG[AAD token is empty. Fetching new AAD token.]LOG]!><time="18:56:49.8800307" date="2-18-2025" component="DataCollection" context="" type="1" thread="25" file="">
+<![LOG[GetAADAuthToken - Domain join information can't be null or empty.]LOG]!><time="18:56:49.8800307" date="2-18-2025" component="DataCollection" context="" type="3" thread="25" file="">
+<![LOG[AAD token is empty. Fetching new AAD token.]LOG]!><time="19:01:49.8838613" date="2-18-2025" component="DataCollection" context="" type="1" thread="25" file="">
+<![LOG[GetAADAuthToken - Domain join information can't be null or empty.]LOG]!><time="19:01:49.8838613" date="2-18-2025" component="DataCollection" context="" type="3" thread="25" file="">
+<![LOG[AAD token is empty. Fetching new AAD token.]LOG]!><time="19:06:49.9004122" date="2-18-2025" component="DataCollection" context="" type="1" thread="25" file="">
+<![LOG[GetAADAuthToken - Domain join information can't be null or empty.]LOG]!><time="19:06:49.9025136" date="2-18-2025" component="DataCollection" context="" type="3" thread="25" file="">
+<![LOG[AAD token is empty. Fetching new AAD token.]LOG]!><time="19:11:49.9217404" date="2-18-2025" component="DataCollection" context="" type="1" thread="25" file="">
+<![LOG[GetAADAuthToken - Domain join information can't be null or empty.]LOG]!><time="19:11:49.9217404" date="2-18-2025" component="DataCollection" context="" type="3" thread="25" file="">
+<![LOG[AAD token is empty. Fetching new AAD token.]LOG]!><time="19:16:49.9279512" date="2-18-2025" component="DataCollection" context="" type="1" thread="15" file="">
+<![LOG[GetAADAuthToken - Domain join information can't be null or empty.]LOG]!><time="19:16:49.9279512" date="2-18-2025" component="DataCollection" context="" type="3" thread="15" file="">
+<![LOG[Pausing transmission...]LOG]!><time="19:23:34.9830547" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[enableDebugEvents is 0]LOG]!><time="19:23:34.9830547" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[[EventManager] Overriding OS version property to 10.0.26100.3194.amd64fre.ge_release.240331-1435]LOG]!><time="19:23:34.9940537" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[Pausing transmission...]LOG]!><time="19:23:34.9960538" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[enableDebugEvents is 0]LOG]!><time="19:23:34.9970539" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[[EventManager] Overriding OS version property to 10.0.26100.3194.amd64fre.ge_release.240331-1435]LOG]!><time="19:23:34.9970539" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[Pausing transmission...]LOG]!><time="19:23:34.9990536" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[enableDebugEvents is 0]LOG]!><time="19:23:34.9990536" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[[EventManager] Overriding OS version property to 10.0.26100.3194.amd64fre.ge_release.240331-1435]LOG]!><time="19:23:35.0000568" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[Timer to refresh AAD token has started.]LOG]!><time="19:23:35.0000568" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[AAD token is empty. Fetching new AAD token.]LOG]!><time="19:23:35.0023756" date="2-18-2025" component="DataCollection" context="" type="1" thread="10" file="">
+<![LOG[start to call tokenmanager to get aadtoken...]LOG]!><time="19:23:35.0223390" date="2-18-2025" component="DataCollection" context="" type="1" thread="10" file="">
+<![LOG[Resuming transmission...]LOG]!><time="19:23:35.9398672" date="2-18-2025" component="DataCollection" context="" type="1" thread="10" file="">
+<![LOG[Resuming transmission...]LOG]!><time="19:23:35.9408674" date="2-18-2025" component="DataCollection" context="" type="1" thread="10" file="">
+<![LOG[Resuming transmission...]LOG]!><time="19:23:35.9408674" date="2-18-2025" component="DataCollection" context="" type="1" thread="10" file="">
+<![LOG[Successfully fetched AAD device token.]LOG]!><time="19:23:35.9408674" date="2-18-2025" component="DataCollection" context="" type="1" thread="10" file="">
+<![LOG[Pausing transmission...]LOG]!><time="19:26:33.2649326" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[enableDebugEvents is 0]LOG]!><time="19:26:33.2649326" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[[EventManager] Overriding OS version property to 10.0.26100.3194.amd64fre.ge_release.240331-1435]LOG]!><time="19:26:33.2795197" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[Pausing transmission...]LOG]!><time="19:26:33.2815193" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[enableDebugEvents is 0]LOG]!><time="19:26:33.2815193" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[[EventManager] Overriding OS version property to 10.0.26100.3194.amd64fre.ge_release.240331-1435]LOG]!><time="19:26:33.2815193" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[Pausing transmission...]LOG]!><time="19:26:33.2845184" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[enableDebugEvents is 0]LOG]!><time="19:26:33.2845184" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[[EventManager] Overriding OS version property to 10.0.26100.3194.amd64fre.ge_release.240331-1435]LOG]!><time="19:26:33.2845184" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[Timer to refresh AAD token has started.]LOG]!><time="19:26:33.2845184" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[AAD token is empty. Fetching new AAD token.]LOG]!><time="19:26:33.2875198" date="2-18-2025" component="DataCollection" context="" type="1" thread="10" file="">
+<![LOG[start to call tokenmanager to get aadtoken...]LOG]!><time="19:26:33.3045182" date="2-18-2025" component="DataCollection" context="" type="1" thread="10" file="">
+<![LOG[Resuming transmission...]LOG]!><time="19:26:33.3561059" date="2-18-2025" component="DataCollection" context="" type="1" thread="10" file="">
+<![LOG[Resuming transmission...]LOG]!><time="19:26:33.3571062" date="2-18-2025" component="DataCollection" context="" type="1" thread="10" file="">
+<![LOG[Resuming transmission...]LOG]!><time="19:26:33.3571062" date="2-18-2025" component="DataCollection" context="" type="1" thread="10" file="">
+<![LOG[Successfully fetched AAD device token.]LOG]!><time="19:26:33.3571062" date="2-18-2025" component="DataCollection" context="" type="1" thread="10" file="">
+<![LOG[[EventManager] Sending event microsoft_sidecar_event_telemetry through 1DS SDK.]LOG]!><time="19:26:34.2888494" date="2-18-2025" component="DataCollection" context="" type="1" thread="13" file="">
+<![LOG[[EventManager] Finished queueing event microsoft_sidecar_event_telemetry to the 1DS pipeline.]LOG]!><time="19:26:34.2888494" date="2-18-2025" component="DataCollection" context="" type="1" thread="13" file="">
+<![LOG[[EventManager] Sending event microsoft_sidecar_event_telemetry through 1DS SDK.]LOG]!><time="19:26:34.2898493" date="2-18-2025" component="DataCollection" context="" type="1" thread="13" file="">
+<![LOG[[EventManager] Finished queueing event microsoft_sidecar_event_telemetry to the 1DS pipeline.]LOG]!><time="19:26:34.2898493" date="2-18-2025" component="DataCollection" context="" type="1" thread="13" file="">
+<![LOG[[EventManager] Sending event microsoft_sidecar_event_telemetry through 1DS SDK.]LOG]!><time="19:26:34.2918489" date="2-18-2025" component="DataCollection" context="" type="1" thread="13" file="">
+<![LOG[[EventManager] Finished queueing event microsoft_sidecar_event_telemetry to the 1DS pipeline.]LOG]!><time="19:26:34.2918489" date="2-18-2025" component="DataCollection" context="" type="1" thread="13" file="">
+<![LOG[Pausing transmission...]LOG]!><time="19:39:58.8296197" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[enableDebugEvents is 0]LOG]!><time="19:39:58.8296197" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[[EventManager] Overriding OS version property to 10.0.26100.3194.amd64fre.ge_release.240331-1435]LOG]!><time="19:39:58.8296197" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[Pausing transmission...]LOG]!><time="19:39:58.8296197" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[enableDebugEvents is 0]LOG]!><time="19:39:58.8296197" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[[EventManager] Overriding OS version property to 10.0.26100.3194.amd64fre.ge_release.240331-1435]LOG]!><time="19:39:58.8296197" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[Pausing transmission...]LOG]!><time="19:39:58.8424182" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[enableDebugEvents is 0]LOG]!><time="19:39:58.8424182" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[[EventManager] Overriding OS version property to 10.0.26100.3194.amd64fre.ge_release.240331-1435]LOG]!><time="19:39:58.8424182" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[Timer to refresh AAD token has started.]LOG]!><time="19:39:58.8424182" date="2-18-2025" component="DataCollection" context="" type="1" thread="5" file="">
+<![LOG[AAD token is empty. Fetching new AAD token.]LOG]!><time="19:39:58.8453835" date="2-18-2025" component="DataCollection" context="" type="1" thread="10" file="">
+<![LOG[start to call tokenmanager to get aadtoken...]LOG]!><time="19:39:58.8473883" date="2-18-2025" component="DataCollection" context="" type="1" thread="10" file="">
+<![LOG[Resuming transmission...]LOG]!><time="19:39:58.8933444" date="2-18-2025" component="DataCollection" context="" type="1" thread="10" file="">
+<![LOG[Resuming transmission...]LOG]!><time="19:39:58.8933444" date="2-18-2025" component="DataCollection" context="" type="1" thread="10" file="">
+<![LOG[Resuming transmission...]LOG]!><time="19:39:58.8933444" date="2-18-2025" component="DataCollection" context="" type="1" thread="10" file="">
+<![LOG[Successfully fetched AAD device token.]LOG]!><time="19:39:58.8933444" date="2-18-2025" component="DataCollection" context="" type="1" thread="10" file="">
+<![LOG[[EventManager] Sending event microsoft_sidecar_event_telemetry through 1DS SDK.]LOG]!><time="19:39:59.5080686" date="2-18-2025" component="DataCollection" context="" type="1" thread="13" file="">
+<![LOG[[EventManager] Finished queueing event microsoft_sidecar_event_telemetry to the 1DS pipeline.]LOG]!><time="19:39:59.5080686" date="2-18-2025" component="DataCollection" context="" type="1" thread="13" file="">
+<![LOG[[EventManager] Sending event microsoft_sidecar_event_telemetry through 1DS SDK.]LOG]!><time="19:39:59.5080686" date="2-18-2025" component="DataCollection" context="" type="1" thread="13" file="">
+<![LOG[[EventManager] Finished queueing event microsoft_sidecar_event_telemetry to the 1DS pipeline.]LOG]!><time="19:39:59.5080686" date="2-18-2025" component="DataCollection" context="" type="1" thread="13" file="">
+<![LOG[[EventManager] Sending event microsoft_sidecar_event_telemetry through 1DS SDK.]LOG]!><time="19:39:59.5100739" date="2-18-2025" component="DataCollection" context="" type="1" thread="13" file="">
+<![LOG[[EventManager] Finished queueing event microsoft_sidecar_event_telemetry to the 1DS pipeline.]LOG]!><time="19:39:59.5100739" date="2-18-2025" component="DataCollection" context="" type="1" thread="13" file="">
+<![LOG[[EventManager] Sending event microsoft_sidecar_event_telemetry through 1DS SDK.]LOG]!><time="19:39:59.5100739" date="2-18-2025" component="DataCollection" context="" type="1" thread="13" file="">
+<![LOG[[EventManager] Finished queueing event microsoft_sidecar_event_telemetry to the 1DS pipeline.]LOG]!><time="19:39:59.5100739" date="2-18-2025" component="DataCollection" context="" type="1" thread="13" file="">
+<![LOG[[EventManager] Sending event microsoft_sidecar_event_telemetry through 1DS SDK.]LOG]!><time="19:39:59.5100739" date="2-18-2025" component="DataCollection" context="" type="1" thread="13" file="">
+<![LOG[[EventManager] Finished queueing event microsoft_sidecar_event_telemetry to the 1DS pipeline.]LOG]!><time="19:39:59.5100739" date="2-18-2025" component="DataCollection" context="" type="1" thread="13" file="">
+<![LOG[[EventManager] Sending event microsoft_sidecar_event_telemetry through 1DS SDK.]LOG]!><time="19:39:59.5120780" date="2-18-2025" component="DataCollection" context="" type="1" thread="13" file="">
+<![LOG[[EventManager] Finished queueing event microsoft_sidecar_event_telemetry to the 1DS pipeline.]LOG]!><time="19:39:59.5120780" date="2-18-2025" component="DataCollection" context="" type="1" thread="13" file="">

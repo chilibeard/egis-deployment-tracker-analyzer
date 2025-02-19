@@ -1,0 +1,12 @@
+2025-02-19T00:51:42
+TpmHLI GetVersion result: 0x00000000
+TpmHLI Version: 2.0
+Manufacturer: Nuvoton Technology
+VendorId: NPCT75x 
+Uefi Is Present: Yes
+TpmHLI IsReady for Storage result: 0x00000000
+Ready: True
+Bits:  0x0000000000000000
+TpmHLI IsReady for Attestation result: 0x00000000
+Ready: True
+Bits:  0x0000000000000000

@@ -1,0 +1,10 @@
+﻿<![LOG[Client Cert Check starts.]LOG]!><time="18:49:41.3665398" date="2-18-2025" component="ClientCertCheck" context="" type="1" thread="1" file="">
+<![LOG[OnStart, public cloud env.]LOG]!><time="18:49:41.4301385" date="2-18-2025" component="ClientCertCheck" context="" type="1" thread="1" file="">
+<![LOG[MDM certs found in LocalMachine count: 1]LOG]!><time="18:49:42.4457647" date="2-18-2025" component="ClientCertCheck" context="" type="1" thread="1" file="">
+<![LOG[Skipping the Cert picking as the there are no valid certs or cert count is <= 1.]LOG]!><time="18:49:42.4457647" date="2-18-2025" component="ClientCertCheck" context="" type="1" thread="1" file="">
+<![LOG[Client Cert Check completes.]LOG]!><time="18:49:42.4649639" date="2-18-2025" component="ClientCertCheck" context="" type="1" thread="1" file="">
+<![LOG[Client Cert Check starts.]LOG]!><time="19:46:26.4762036" date="2-18-2025" component="ClientCertCheck" context="" type="1" thread="1" file="">
+<![LOG[OnStart, public cloud env.]LOG]!><time="19:46:26.5379358" date="2-18-2025" component="ClientCertCheck" context="" type="1" thread="1" file="">
+<![LOG[MDM certs found in LocalMachine count: 1]LOG]!><time="19:46:27.4014920" date="2-18-2025" component="ClientCertCheck" context="" type="1" thread="1" file="">
+<![LOG[Skipping the Cert picking as the there are no valid certs or cert count is <= 1.]LOG]!><time="19:46:27.4115818" date="2-18-2025" component="ClientCertCheck" context="" type="1" thread="1" file="">
+<![LOG[Client Cert Check completes.]LOG]!><time="19:46:27.4115818" date="2-18-2025" component="ClientCertCheck" context="" type="1" thread="1" file="">
