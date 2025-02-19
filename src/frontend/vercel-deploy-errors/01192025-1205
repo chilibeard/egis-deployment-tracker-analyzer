@@ -1,0 +1,40 @@
+[00:03:34.309] Running build in Washington, D.C., USA (East) – iad1
+[00:03:34.424] Cloning github.com/chilibeard/egis-deployment-tracker-analyzer (Branch: main, Commit: 9cd1122)
+[00:03:43.631] Cloning completed: 9.206s
+[00:03:43.987] Restored build cache from previous deployment (4DrKeqD8i7aizeNNkEkMHhC5HStt)
+[00:03:44.054] Running "vercel build"
+[00:03:44.473] Vercel CLI 41.1.3
+[00:03:44.759] Installing dependencies...
+[00:03:47.985] 
+[00:03:47.986] added 14 packages, and changed 1 package in 3s
+[00:03:47.986] 
+[00:03:47.986] 147 packages are looking for funding
+[00:03:47.986]   run `npm fund` for details
+[00:03:48.123] Detected Next.js version: 14.1.0
+[00:03:48.127] Running "npm run build"
+[00:03:48.261] 
+[00:03:48.261] > egis-deployment-log-analyzer-frontend@0.1.0 build
+[00:03:48.261] > next build
+[00:03:48.261] 
+[00:03:49.119]    ▲ Next.js 14.1.0
+[00:03:49.119] 
+[00:03:49.194]    Creating an optimized production build ...
+[00:03:56.738] Compiler server unexpectedly exited with code: null and signal: SIGKILL
+[00:04:01.904]  ✓ Compiled successfully
+[00:04:01.905]    Linting and checking validity of types ...
+[00:04:02.200] 
+[00:04:02.201]    We detected TypeScript in your project and created a tsconfig.json file for you.
+[00:04:04.422] Failed to compile.
+[00:04:04.422] 
+[00:04:04.422] ./components/LogUpload.tsx:44:37
+[00:04:04.422] Type error: Type 'MapIterator<[string, ArrayBuffer]>' can only be iterated through when using the '--downlevelIteration' flag or with a '--target' of 'es2015' or higher.
+[00:04:04.423] 
+[00:04:04.423] [0m [90m 42 |[39m[0m
+[00:04:04.423] [0m [90m 43 |[39m       [90m// 3. Upload each file to Supabase Storage[39m[0m
+[00:04:04.423] [0m[31m[1m>[22m[39m[90m 44 |[39m       [36mfor[39m ([36mconst[39m [path[33m,[39m content] [36mof[39m files[33m.[39mentries()) {[0m
+[00:04:04.423] [0m [90m    |[39m                                     [31m[1m^[22m[39m[0m
+[00:04:04.423] [0m [90m 45 |[39m         [36mconst[39m { error[33m:[39m uploadError } [33m=[39m [36mawait[39m supabase[33m.[39mstorage[0m
+[00:04:04.423] [0m [90m 46 |[39m           [33m.[39m[36mfrom[39m([32m'deployment-logs'[39m)[0m
+[00:04:04.423] [0m [90m 47 |[39m           [33m.[39mupload([32m`${machineName}/${path}`[39m[33m,[39m content[33m,[39m {[0m
+[00:04:04.466] Error: Command "npm run build" exited with 1
+[00:04:04.787] 

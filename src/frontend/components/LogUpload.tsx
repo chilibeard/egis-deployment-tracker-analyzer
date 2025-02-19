@@ -41,7 +41,8 @@ export function LogUpload() {
       const files = await extractZip(file)
 
       // 3. Upload each file to Supabase Storage
-      for (const [path, content] of files.entries()) {
+      const entries = Array.from(files.entries())
+      for (const [path, content] of entries) {
         const { error: uploadError } = await supabase.storage
           .from('deployment-logs')
           .upload(`${machineName}/${path}`, content, {
