@@ -28,8 +28,8 @@ export class ProcessingService implements OnModuleInit {
     private readonly configService: ConfigService,
   ) {
     this.supabase = createClient(
-      this.configService.get<string>('SUPABASE_URL'),
-      this.configService.get<string>('SUPABASE_SERVICE_KEY')
+      this.configService.get<string>('NEXT_PUBLIC_SUPABASE_URL'),
+      this.configService.get<string>('NEXT_PUBLIC_SUPABASE_ANON_KEY')
     );
   }
 
